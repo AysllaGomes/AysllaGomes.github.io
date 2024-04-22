@@ -1,0 +1,28 @@
+.section-title {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.language-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.language-item {
+    margin-bottom: 10px;
+}
+
+.language-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-name {
+    font-weight: bold;
+}
+
+.language-level {
+    color: #666;
+    font-style: italic;
+}

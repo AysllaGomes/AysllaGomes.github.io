@@ -1,0 +1,46 @@
+<app-pages-navbar></app-pages-navbar>
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="header col-md-12">
+                <app-pages-professional-info
+                    [name]="name"
+                    [photoUrl]="photoUrl"
+                    [phone]="phone"
+                    [email]="email"
+                    [address]="address">
+                </app-pages-professional-info>
+            </div>
+
+            <div class="row">
+                <hr>
+                <div class="main-content col-sm-8">
+                    <div class="col-sm-12">
+                        <h5>{{ resume }}</h5>
+                        <hr>
+                        <p class="recuo"> {{ descriptionResume }} </p>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <app-pages-experience [canShow]="false" [canShowPersonalProjects]="false"></app-pages-experience>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <app-pages-academic-education [canShow]="false"></app-pages-academic-education>
+                    </div>
+                </div>
+
+                <div class="sidebar col-sm-4">
+                    <div class="col-sm-12">
+                        <app-pages-professional-skills></app-pages-professional-skills>
+                        <app-pages-languages></app-pages-languages>
+                        <app-pages-certification></app-pages-certification>
+                    </div>
+                </div>
+
+                <app-pages-footer></app-pages-footer>
+            </div>
+        </div>
+    </div>
+</div>

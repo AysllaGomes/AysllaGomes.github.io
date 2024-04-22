@@ -1,0 +1,35 @@
+.section-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.skill-groups {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-group {
+    margin-bottom: 20px;
+}
+
+.group-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skill {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+}
